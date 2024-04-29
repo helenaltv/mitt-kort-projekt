@@ -1,0 +1,42 @@
+@tailwind components;
+@tailwind utilities;
+
+.Knapp {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 60px;
+  gap: 10px;
+  position: absolute;
+  width: 217px;
+  height: 71px;
+  left: 150px;
+  top: 507px;
+  color: white;
+  font-size: large;
+  background: #2e2e2e;
+  border-radius: 999px;
+}
+.Knapp:hover {
+  background: darkgray;
+}
+
+.link {
+  color: white;
+}
+
+.footer {
+  display: grid;
+  gap: 16px;
+  row-gap: 16px;
+  width: 100%;
+  color: rgb(46, 45, 45);
+  grid-template-columns: 1fr 1fr 1fr;
+}
+h1 {
+  color: #2e2e2e;
+}
+p {
+  color: #4e4e4e;
+}
